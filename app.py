@@ -9,8 +9,8 @@ from src.components.dialog_auto_enroll import auto_enroll_dialog
 
 def main():
     st.set_page_config(
-        page_title='Attendexa - AI Powered Smart Attendance',
-        page_icon="src/logo/attendexa_icon.png"
+        page_title='Attendexa - Making Attendance faster using AI',
+        page_icon= "src/logo/attendexa_icon.png"
     )
     if 'login_type' not in st.session_state:
         st.session_state['login_type'] = None
